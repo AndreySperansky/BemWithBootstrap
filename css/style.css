@@ -2,10 +2,14 @@
 
 body {
   background:lightgray;
+  
+  width:1400px
+
 }
 
 .container {
   border: 1px dotted lightgray;
+
 }
 
 ul, li {
@@ -17,7 +21,14 @@ ul, li {
 .menu-bar {
   color: #212121;
   padding: 50px 0px;
-  background: #ffffff
+  background: #ffffff;
+  font-family: 'Open Sans Semibold';
+  letter-spacing: 1px;
+}
+
+.menu {
+ /*  width: 680px; */
+  margin: 0px;
 }
 
 .menu__item {
@@ -25,7 +36,6 @@ ul, li {
 }
 
 .menu__item a {
-  font-family: 'Open Sans Semibold';
   font-size: 20px;
   color: #212121;
 }
@@ -33,4 +43,92 @@ ul, li {
 .menu__item a:hover {
   text-decoration: none;
   color: #868686
+}
+
+/* ШАПКА */
+
+.header {
+  width: 1400px;
+  height: 659px;
+  background-size: cover;
+  background-position: 0 100%;
+  color: white;
+  text-align: center;
+  padding-top: 180px;
+  padding-bottom: 185px;
+  background-image: url(../img/header.png);
+}
+
+.header__title {
+  font-size: 60px;
+  letter-spacing: 2px;
+  font-family: 'Open Sans Regular';
+}
+
+.header__text {
+  font-family: 'Open Sans Semibold';
+  font-size: 22px;
+  letter-spacing: 1.2px;
+  margin-top: 18px;
+  margin-bottom: 90px;
+}
+
+
+.button {
+  padding: 10px 25px;
+  font-family: 'Open Sans Semibold';
+  font-weight: 900;
+  margin: 0 10px;
+  font-size: 20px;
+  color: white;
+  transition: 0.5s;
+}
+
+.button_empty {
+  width: 221px;
+  height: 71px;
+  background-color: transparent;
+  border: 2px solid white;
+  
+}
+
+.button_full {
+  width: 221px;
+  height: 71px;
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.button_empty:hover,
+ .button_full:hover {
+  background-color: #00897B;
+  border: 2px solid #00897B;
+}
+
+/* ABOUT */
+
+.about {
+  background-color: #ffffff;
+  height: 672px;
+  text-align: center;
+  padding-top: 115px;
+  padding-bottom: 105px;
+}
+
+.about__title {
+  font-size: 30px;
+  font-family: 'Open Sans Semibold';
+  font-weight: 900;
+  padding-bottom: 36px;
+
+}
+
+.about__text {
+  font-size: 15px;
+  margin-bottom: 100px;
+}
+
+.about__h3 {
+  padding-top: 21px;
+  padding-bottom: 30px;
 }
