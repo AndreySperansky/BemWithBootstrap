@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://kit.fontawesome.com/c190c00941.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="css/style.css" />
   <title>Document</title>
 </head>
+
 <body>
-  <header >
+  <header>
     <nav class="menu-bar">
       <div class="container">
         <div class="row">
           <div class="col-xl-3">
-            <img src="img/logo.svg" alt="Logo" class="logo">
+            <img src="img/logo.svg" alt="Logo" class="logo" />
           </div>
-          <div class="col-xl-8 ml-auto align-self-center ">
+          <div class="col-xl-8 ml-auto align-self-center">
             <!-- ul.menu>li*7>a[href="#"]  -->
-            <ul class="menu d-flex justitify-content-end ">    <!-- класс d-flex bootstrap аналогичен параметру display: flex; -->
+            <ul class="menu d-flex justitify-content-end">
+              <!-- класс d-flex bootstrap аналогичен параметру display: flex; -->
               <li class="menu__item"><a href="#">Home</a></li>
               <li class="menu__item"><a href="#">About</a></li>
               <li class="menu__item"><a href="#">Servicing</a></li>
               <li class="menu__item"><a href="#">Portfolio</a></li>
               <li class="menu__item"><a href="#">Blog</a></li>
               <li class="menu__item"><a href="#">Contact us</a></li>
-              <li class="menu__item"><i class="fas fa-search "></i></li>
-            </ul>  
+              <li class="menu__item"><i class="fas fa-search"></i></li>
+            </ul>
           </div>
         </div>
       </div>
@@ -35,49 +40,232 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-12">
-            <h1 class= "header__title">Web development project</h1>
-            <p class= "header__text">Very suitable to support all web development projects</p>
-            <button class= "button button_empty">OUR SERVICES</button>
-            <button class= "button button_full">HIRE IS NOW</button>
+            <h1 class="header__title">Web development project</h1>
+            <p class="header__text">
+              Very suitable to support all web development projects
+            </p>
+            <button class="button button_empty">OUR SERVICES</button>
+            <button class="button button_full">HIRE IS NOW</button>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- ABOUT US ******************************************************  -->
     <section>
       <div class="about">
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-xl-6 ">
+            <div class="col-xl-6">
               <h2 class="about__title">About Us</h2>
-              <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+              <p class="about__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam,
+              </p>
             </div>
           </div>
           <div class="row justify-content-around">
             <div class="col-xl-3">
-              <img src="img/globus.png" alt="Globus">
-              <h3 class="about__h3">Awesome Icons</h3>
-              <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, voluptatem.</p>
+              <img src="img/globus.png" alt="Globus" />
+              <h3 class="about_h3">Awesome Icons</h3>
+              <p class="about_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis, voluptatem.
+              </p>
             </div>
             <div class="col-xl-3">
-              <img src="img/p2p.png" alt="Interperson">
-              <h3 class="about__h3">One Page</h3>
-              <p class="about__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta, sint?</p>
+              <img src="img/p2p.png" alt="Interperson" />
+              <h3 class="about_h3">One Page</h3>
+              <p class="about_text">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Dicta, sint?
+              </p>
             </div>
             <div class="col-xl-3">
-              <img src="img/brain.png" alt="Brain">
-              <h3 class="about__h3">Fully Responsive</h3>
-              <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, sequi.</p>
+              <img src="img/brain.png" alt="Brain" />
+              <h3 class="about_h3">Fully Responsive</h3>
+              <p class="about_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti, sequi.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    
-  </header>
-  
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- OUR SERVICES ************************************************   -->
+    <!-- section.serviices>.container>.row*2 -->
+    <section class="services">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-6">
+            <h2 class="about__title">Our Services</h2>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam,
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-xl-4">
+            <div class="our-service-box">
+              <!-- <img src="img/cell_fone_bl.png" alt="cell-fone" class="cell-fone"> -->
+              <p class="cell-fone"></p>
+              <h3 class="about_h3">Fully Responsive</h3>
+              <p class="about_text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia quibusdam nemo veritatis est, fugit quos!
+              </p>
+              <button class="button-our-services">READ MORE</button>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="our-service-box">
+              <!-- <img src="img/cell_fone_bl.png" alt="cell-fone" class="cell-fone"> -->
+              <p class="cell-fone"></p>
+              <h3 class="about_h3">Fully Responsive</h3>
+              <p class="about_text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia quibusdam nemo veritatis est, fugit quos!
+              </p>
+              <button class="button-our-services">READ MORE</button>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="our-service-box">
+              <!-- <img src="img/cell_fone_bl.png" alt="cell-fone" class="cell-fone"> -->
+              <p class="cell-fone"></p>
+              <h3 class="about_h3">Fully Responsive</h3>
+              <p class="about_text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia quibusdam nemo veritatis est, fugit quos!
+              </p>
+              <button class="button-our-services">READ MORE</button>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="our-service-box">
+              <!-- <img src="img/cell_fone_bl.png" alt="cell-fone" class="cell-fone"> -->
+              <p class="cell-fone"></p>
+              <h3 class="about_h3">Fully Responsive</h3>
+              <p class="about_text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia quibusdam nemo veritatis est, fugit quos!
+              </p>
+              <button class="button-our-services">READ MORE</button>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="our-service-box">
+              <!-- <img src="img/cell_fone_bl.png" alt="cell-fone" class="cell-fone"> -->
+              <p class="cell-fone"></p>
+              <h3 class="about_h3">Fully Responsive</h3>
+              <p class="about_text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia quibusdam nemo veritatis est, fugit quos!
+              </p>
+              <button class="button-our-services">READ MORE</button>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <div class="our-service-box">
+              <!-- <img src="img/cell_fone_bl.png" alt="cell-fone" class="cell-fone"> -->
+              <p class="cell-fone"></p>
+              <h3 class="about_h3">Fully Responsive</h3>
+              <p class="about_text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia quibusdam nemo veritatis est, fugit quos!
+              </p>
+              <button class="button-our-services">READ MORE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LATEST WORK *************************************************** -->
+    <!-- section.portfolio>.container>.row*2 -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+         <div class="row justify-content-center">
+            <div class="col-xl-8">
+               <h2 class="about__title">Latest Works</h2>
+               <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+               <button val="on" class="button button_works" filter="all">All</button>
+               <button val="off" class="button button_works" filter="wd">Web design</button>
+               <button val="off" class="button button_works" filter="ud">Ui/Ux design</button>
+               <button val="off" class="button button_works" filter="moc">Mockups</button>
+            </div>
+         </div>
+         <div class="row filter aligh_img">
+            <div filter="wd" class="col-xl-4 col-md-6">
+               <img src="img/item1.png" alt="">
+               <div class="text">
+                  <h5>Hand Watch</h5>
+                  <p>Web design</p>
+               </div>
+            </div>
+            <div filter="moc" class="col-xl-4 col-md-6">
+               <img src="img/item2.png" alt="">
+               <div class="text">
+                  <h5>One Day Pass</h5>
+                  <p>Mockups</p>
+               </div>
+            </div>
+            <div filter="wd" class="col-xl-4 col-md-6">
+               <img src="img/item3.png" alt="">
+               <div class="text">
+                  <h5>Modal T-shirt</h5>
+                  <p>Web design</p>
+               </div>
+            </div>
+            <div filter="moc" class="col-xl-4 col-md-6">
+               <img src="img/item4.png" alt="">
+               <div class="text">
+                  <h5>Flask</h5>
+                  <p>Mockups</p>
+               </div>
+            </div>
+            <div filter="ud" class="col-xl-4 col-md-6">
+               <img src="img/item5.png" alt="">
+               <div class="text">
+                  <h5>Eplemost</h5>
+                  <p>Ui/Ux Design</p>
+               </div>
+            </div>
+            <div filter="ud" class="col-xl-4 col-md-6">
+               <img src="img/item6.png" alt="">
+               <div class="text">
+                  <h5>The kitchens</h5>
+                  <p>Ui/Ux Design</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <div class="row">
+            <div class="col-xl-12">
+               <button val="on" class="button button_works" filter="all">View all</button>
+            </div>
+         </div>
+      </div>
+   </section>
+  </header>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>
