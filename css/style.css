@@ -2,13 +2,13 @@
 
 body {
   background:lightgray;
-  
+  margin: 0 0;
   width:1400px
 
 }
 
 .container {
-  border: 1px dotted lightgray;
+  border: 1px dotted rgb(54, 53, 53);
 
 }
 
@@ -76,8 +76,8 @@ ul, li {
 
 .button {
   padding: 10px 25px;
-  font-family: 'Open Sans Semibold';
-  font-weight: 900;
+  font-family: 'Open Sans';
+  font-weight: bolder;
   margin: 0 10px;
   font-size: 20px;
   color: white;
@@ -109,16 +109,16 @@ ul, li {
 
 .about {
   background-color: #ffffff;
-  height: 672px;
+  /* height: 672px; */
   text-align: center;
   padding-top: 115px;
-  padding-bottom: 105px;
+  padding-bottom: 125px;
 }
 
 .about__title {
   font-size: 30px;
-  font-family: 'Open Sans Semibold';
-  font-weight: 900;
+  font-family: 'Open Sans';
+  font-weight: bolder;
   padding-bottom: 36px;
 
 }
@@ -128,7 +128,124 @@ ul, li {
   margin-bottom: 100px;
 }
 
-.about__h3 {
+.about_h3 {
   padding-top: 21px;
   padding-bottom: 30px;
+  font-family: 'Open Sans';
+  font-weight: bolder;
+}
+
+/* OUR Services */
+
+.services {
+  background-color: #ccffff;
+  text-align: center;
+  padding-top: 165px;
+  padding-bottom: 105px;
+}
+
+.our-service-box {
+  background: #fff;
+  padding: 60px 50px 70px;
+  transition: 0.3s;
+  margin-bottom: 30px;
+}
+
+.our-service-box:hover {
+  background: #00897B;
+  color: white;
+  box-shadow: 0px 10px 12px 3px rgba(0, 0, 0, 0.26)
+}
+
+.our-service-box .cell-fone {
+  background: url(../img/cell_fone_bl.png) no-repeat;
+  height: 62px;
+  width: 56px;
+ /*  display: block; */
+  transition: 0.3s;
+  padding: auto;
+   margin-left: 45%;
+}
+
+
+.our-service-box:hover .cell-fone {
+  background: url(../img/cell_fone_w.png) no-repeat;
+  height: 62px;
+  width: auto;
+  /* display: block; */
+}
+
+.button-our-services {
+  text-transform: uppercase;
+  border: 3px solid black;
+  background: transparent;
+  font-family: 'Open Sans';
+  font-weight: bolder;
+  font-size: 20px;
+  padding: 13px 11px;
+  letter-spacing: 2px;
+  margin-top: 40px;
+  transition: 0.3s;
+}
+
+.our-service-box:hover .button-our-services {
+  border: 3px solid #fff;
+  color: #fff;
+}
+
+.button-our-services {
+  cursor: poointer;
+}
+
+/* LATEST WORK */
+
+.portfolio {
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 135px;
+  background-color: #ffffff;
+}
+
+
+.button_works {
+  background-color: transparent;
+  border: 2px solid #00897B;
+  color: #212121
+}
+
+
+.button_works:hover, .focused {
+  background-color: #00897B;
+  border: 2px solid #00897B;
+  color: #fff
+}
+
+.portfolio img {
+  max-width: 100%;
+  margin-bottom: 30px;
+
+}
+
+.filter {
+  padding: 120px 0;
+}
+
+div[filter]:hover img {
+  filter: brightness(50%);
+  transition: 0.3s;
+}
+
+.text {
+  display: none;
+}
+
+div[filter]:hover .text {
+  display: block;
+  width: 100%;
+  color: #fff;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  z-index: 3;
+  text-align: center;
 }
