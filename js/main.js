@@ -17,9 +17,9 @@ $(document).ready(function () {
 
   /* Слайдер */
   $('.multiple-items').slick({
-     infinite: true,
-     slidesToShow: 3,
-     slidesToScroll: 3,
+     infinite: true,  // бесконечный слайдер
+     slidesToShow: 3,   // слайдов в одном окне
+     slidesToScroll: 3, // смена слайдов в прокрутке
      arrows: false,
      dots: true,
      dotsClass: 'dots-style',
